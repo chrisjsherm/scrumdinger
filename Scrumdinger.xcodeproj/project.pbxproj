@@ -43,7 +43,6 @@
 		AA5625EA29ED992B003C98A8 = {
 			isa = PBXGroup;
 			children = (
-				AA2DF0F329EEDB4F00FC40B3 /* TrailingIconLabelStyle.swift */,
 				AA5625F529ED992B003C98A8 /* Scrumdinger */,
 				AA5625F429ED992B003C98A8 /* Products */,
 			);
@@ -60,12 +59,13 @@
 		AA5625F529ED992B003C98A8 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				AA5625FA29ED992D003C98A8 /* Assets.xcassets */,
+				AA5625FC29ED992D003C98A8 /* Preview Content */,
 				AA56260429ED9EAD003C98A8 /* Models */,
 				AA5625F629ED992B003C98A8 /* ScrumdingerApp.swift */,
 				AA5625F829ED992B003C98A8 /* MeetingView.swift */,
-				AA5625FA29ED992D003C98A8 /* Assets.xcassets */,
-				AA5625FC29ED992D003C98A8 /* Preview Content */,
 				AA56260929EDA14A003C98A8 /* CardView.swift */,
+				AA2DF0F329EEDB4F00FC40B3 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
