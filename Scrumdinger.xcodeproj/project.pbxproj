@@ -19,6 +19,7 @@
 		AA56260829ED9F85003C98A8 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA56260729ED9F85003C98A8 /* DailyScrum.swift */; };
 		AA56260A29EDA14A003C98A8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA56260929EDA14A003C98A8 /* CardView.swift */; };
 		AAFCE6FC29F0297900BAC832 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCE6FB29F0297900BAC832 /* ThemeView.swift */; };
+		AAFCE70029F02AFC00BAC832 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCE6FF29F02AFC00BAC832 /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		AA56260729ED9F85003C98A8 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		AA56260929EDA14A003C98A8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AAFCE6FB29F0297900BAC832 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		AAFCE6FF29F02AFC00BAC832 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				AA2DF0F729EEE66800FC40B3 /* DetailView.swift */,
 				AA2DF0F929EEEE6600FC40B3 /* DetailEditView.swift */,
 				AAFCE6FB29F0297900BAC832 /* ThemeView.swift */,
+				AAFCE6FF29F02AFC00BAC832 /* ThemePicker.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFCE70029F02AFC00BAC832 /* ThemePicker.swift in Sources */,
 				AA56260829ED9F85003C98A8 /* DailyScrum.swift in Sources */,
 				AA2DF0F829EEE66800FC40B3 /* DetailView.swift in Sources */,
 				AA2DF0FA29EEEE6600FC40B3 /* DetailEditView.swift in Sources */,
