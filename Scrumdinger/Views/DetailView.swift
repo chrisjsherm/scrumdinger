@@ -56,10 +56,12 @@ struct DetailView: View {
                 }
                 
                 ForEach(scrum.history) { history in
+                  NavigationLink(destination: HistoryView(history: history)) {
                     HStack {
-                        Image(systemName: "calendar")
-                        Text(history.date, style: .date)
+                          Image(systemName: "calendar")
+                          Text(history.date, style: .date)
                     }
+                  }
                 }
             }
         }
